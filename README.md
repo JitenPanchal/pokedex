@@ -7,7 +7,7 @@ Steps to run pokedex spring rest apis application
 3. Run command to pull docker image (https://hub.docker.com/r/jitenpanchal/pokemon-apis-app) from docker hub
    docker pull jitenpanchal/pokemon-apis-app
 4. Run command to run docker container 
-   docker pull jitenpanchal/pokemon-apis-app
+   docker run -d -p 9999:9999 jitenpanchal/pokemon-apis-app
 5. Next use browser/postman to access apis.e.g. 
 - http://localhost:9999/pokemon/wormadam
 - http://localhost:9999/pokemon/mewtwo
